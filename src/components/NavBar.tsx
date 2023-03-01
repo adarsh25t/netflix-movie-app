@@ -153,7 +153,7 @@ export default function NavBar() {
           <img src={logo} alt="" className='navbar_logo'/>
           
           <Box sx={{ flexGrow: 1 }} />
-          <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
+          <Box sx={{ display: { xs: 'none', md: 'flex'} }} className="navbar_items">
             <Search className='navbar_search'>
                 <SearchIconWrapper>
                 <SearchIcon />

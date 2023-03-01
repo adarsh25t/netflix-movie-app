@@ -35,8 +35,19 @@
 }
 .navbar_search {
   background-color: transparent !important;
-  border: 1px solid #707172;
+  border: 1px solid #7071727e;
+  height: 40px !important;
+}
+.navbar_items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .profile_logo {
   width: 30px;
+}
+.navbar_search {
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }
