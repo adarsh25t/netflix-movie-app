@@ -13,8 +13,8 @@ import AccountCircle from '@mui/icons-material/AccountCircle';
 import MailIcon from '@mui/icons-material/Mail';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
-import logo from '../images/logo.png'
-import profile1 from '../images/profile1.png'
+import logo from '../../images/logo.png'
+import profile1 from '../../images/profile1.png'
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -148,10 +148,15 @@ export default function NavBar() {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" className='navbar_wrapper'>
+      <AppBar position="sticky" className='navbar_wrapper'>
         <Toolbar>
           <img src={logo} alt="" className='navbar_logo'/>
-          
+          <Box sx={{ display: { xs: 'none', md: 'flex'} }} className="banner_links">
+            <span>Home</span>
+            <span>Tv Shows</span>
+            <span>Movies</span>
+            <span>My List</span>
+          </Box>
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: 'none', md: 'flex'} }} className="navbar_items">
             <Search className='navbar_search'>

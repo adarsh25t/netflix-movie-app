@@ -1,10 +1,12 @@
 import React from 'react'
-import NavBar from './NavBar'
+import HomeBanner from './HomeBanner'
+
 
 const HomePage: React.FC = () => {
   return (
     <div className='home_page'>
-      <NavBar/>
+      
+      <HomeBanner/>
     </div>
   )
 }

@@ -27,12 +27,23 @@
 
 /* navbar */
 .navbar_wrapper {
-  background-color: #000000be !important;
+  background-color: transparent !important;
   padding: 5px;
+  position: static;
+  border: none !important;
+  box-shadow: none !important;
 }
 .navbar_logo {
   width: 100px;
 }
+.banner_links {
+  margin-left: 30px;
+}
+.banner_links span {
+  margin-left: 30px;
+  cursor: pointer;
+}
+
 .navbar_search {
   background-color: transparent !important;
   border: 1px solid #7071727e;
@@ -50,4 +61,17 @@
   display: flex;
   justify-content: left;
   align-items: center;
+}
+
+.homebanner_wrapper {
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.banner_content_wrapper {
+  
 }

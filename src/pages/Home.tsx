@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import HomePage from '../components/HomePage';
-import LoadingHomePage from '../components/LoadingHomePage'
+import HomePage from '../components/Home/HomePage';
+import LoadingHomePage from '../components/Home/LoadingHomePage'
 
 
 const Home: React.FC = () => {
